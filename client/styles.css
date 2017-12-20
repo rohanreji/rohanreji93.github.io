@@ -30,3 +30,9 @@ header{
 .header-div p{
   font-size: 70%;
 }
+
+.header-div img{
+  width: 15%;
+  height: auto;
+  border-radius: 50%;
+}

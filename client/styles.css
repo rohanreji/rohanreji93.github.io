@@ -64,13 +64,20 @@ li > *{
     text-align: center;
     align-self: center;
     justify-content: center;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    height: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 10px;
     /* margin-top: 100px;
     padding: 10px; */
-    width: 50%;
+    /* width: 50%;
     height: 50%;
     margin: auto;
     position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
+    top: 0; left: 0; bottom: 0; right: 0; */
 }
 .random-image{
     width:100px;

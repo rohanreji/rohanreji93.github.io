@@ -1,5 +1,5 @@
 var aText = new Array(
-    "Hello! I am Rohan. I build android apps, web pages and device drivers."
+    "Cool! Those were my projects. My name is Rohan. I build android apps, web pages and device drivers."
     );
     var iSpeed = 100;
     var iIndex = 0; 
@@ -24,4 +24,4 @@ var aText = new Array(
     }
     
     
-   // typewriter();
+     //typewriter();

@@ -10,28 +10,68 @@
       rel="stylesheet">
 </head>
 <body>
-  <!-- <header> -->
-    
-    <div class="header-div">
-      <span id="title-name">Rsquare</span>
+  <header>  
+    <!-- <span id="title-name">Rsquare</span> -->
+    <img src="client/images/rohan-saint.png" id="title-name"/>
+    <nav>
+      <a href="#" id="menu-icon">#</a>
       <ul>
         <li id="selected_li"><i class="material-icons">&#xE912;</i><span>Projects</span></li>
         <li><i class="material-icons">&#xE853;</i><span>About</span></li>
         <li><i class="material-icons">&#xE0B7;</i>Contact</span></li>
       </ul>
+    </nav>
+  </header>
+  <section class="projects">
+    <div class="card" id="card-muscat">
+      <img class="card-image" src="https://lh3.googleusercontent.com/YkSoUBl63A9jMwfctyoAmb4QCW88A5d9n-UxuTv2v_dadxsrn2pX2AwU1t5Qxeg7iiJi=s180-rw"/>
+      <p class="card-text"><span><b>Baladiyeti</b></span><br>E-Governance application for Muscat muncipality.</p>
+    </div>
+    <div class="card" id="card-concept">
+        <img class="card-image" src="https://lh3.googleusercontent.com/PMhlFWdrk1I9HMPyRk7EgDfcIHbJd906mSaqSsPxeqg27fE-z91yt-KsJicEiPdhpuGA=s180-rw"/>
+        <p class="card-text"><span><b>Bansal App</b></span><br>IIT JEE, NEET by Bansal Classes.</p>
+    </div>
+    <div class="card" id="card-bot">
+        <img class="card-image" src="client/images/bot_ble.png"/>
+        <p class="card-text"><span><b>Voice Controlled Bot</b></span><br>A human voice recognition bot powered by android ble.</p>
+    </div>
+    <div class="card" id="card-triptrack">
+        <img class="card-image" src="client/images/trip-track.png"/>
+        <p class="card-text"><span><b>Trip Track</b></span><br>Android app for employees to track their office shuttle.</p>
     </div>
     
-  <!-- </header> -->
-
-    <div class="projects-div">
-      <div class="card">
-        <img class="card_image" src="https://lh3.googleusercontent.com/ZI1wP3ZdnLoaiMywr8zF7LT9vKxJEFLONxkOJ8jpI7VtY2SHVZCl-KQ0ZNDjwbbMJ0U=w1600-h1069-rw"  alt="Avatar">
-
-        <div class="container">
-            <h4><b>Baladiyeti</b></h4> 
-            <p>Improvng e-governance for muscat muncipality</p> 
-          </div>
-      </div>
+    <div class="card" id="card-checkin">
+        <img class="card-image" src="client/images/loc.png"/>
+        <p class="card-text"><span><b>CheckIn</b></span><br>A reminder app which is based on location.</p>
     </div>
+    <div class="card" id="card-assettracker">
+        <img class="card-image" src="client/images/asset-audit.png"/>
+        <p class="card-text"><span><b>Asset Tracker</b></span><br>App powered by BLE and NFC to track assets.</p>
+    </div>
+    <div class="card" id="card-edittext">
+        <img class="card-image" src="client/images/edittext-image.jpg"/>
+        <p class="card-text"><span><b>Syncpad</b></span><br>An improved edittext for realtime note sharing app.</p>
+    </div>
+    <div class="card" id="card-schoolsafe">
+        <img class="card-image" src="client/images/school-safe.png"/>
+        <p class="card-text"><span><b>School Safe</b></span><br>Bluetooth powered safety system for schools.</p>
+    </div>
+
+  </section>
+  <section class="about">
+      <!-- <p id="welcome-text"></p>
+      <br> -->
+      <p id="content-text">
+        Cool! Those were some of my projects. My name is Rohan.<br>I build android apps, web pages and device drivers.<br><br>
+        I work as Software Engineer with Hewlett Packard Enterprise.
+        I started my software engineering journey when I was in second year of my graduate studies, when I started android development as a hobby 
+        which developed into a passion. I have gained experience working with different architecture patterns - MVP/MVVM and I use Dagger for dependency injection in my android apps. Over the years, I have gained experience developing front end for websites.
+        I have worked with different UI frameworks and libraries like Angular and React. I am very well versed in Javascript programming.
+        In my current role I develop IO device drivers for initiator - Fibre channel and NVMe controller drivers.
+      </p>
+      <!-- <img class="random-image" id="android-image" src="client/images/android.png"/>
+      <img class="random-image" id="react-image" src="client/images/react.png"/> -->
+  </section>
+  
 </body>
 </html>

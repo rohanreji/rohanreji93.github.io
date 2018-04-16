@@ -6,6 +6,8 @@
   <link rel="stylesheet" href="./client/styles.css">
   <script type="text/javascript" src="./client/client.js" defer="defer"></script>
   <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 </head>
@@ -13,17 +15,18 @@
   <header>  
     <!-- <span id="title-name">Rsquare</span> -->
     <img src="client/images/rohan-saint.png" id="title-name"/>
+	<p id="header-text">Rohan Reji</p>
     <nav>
       <a href="#" id="menu-icon">...</a>
       <ul>
-        <li id="selected_li"><i class="material-icons">&#xE912;</i><span>Projects</span></li>
-        <li><i class="material-icons">&#xE853;</i><span>About</span></li>
-        <li><i class="material-icons">&#xE0B7;</i>Contact</span></li>
+        <a href="#projects"><li id="selected_li"><i class="material-icons">&#xE912;</i><span>Projects</span></li></a>
+        <a href="#about"><li><i class="material-icons">&#xE853;</i><span>About</span></li></a>
+        <a href="#contact"><li><i class="material-icons">&#xE0B7;</i><span>Contact</span></li></a>
       </ul>
     </nav>
   </header>
   <section class="projects">
-    <a class="link" target="_blank" href="https://play.google.com/store/apps/details?id=mm.gov.baladiyeti">
+    <a class="link"  name="projects" target="_blank" href="https://play.google.com/store/apps/details?id=mm.gov.baladiyeti">
     <div class="card" id="card-muscat">
       <img class="card-image" src="https://lh3.googleusercontent.com/YkSoUBl63A9jMwfctyoAmb4QCW88A5d9n-UxuTv2v_dadxsrn2pX2AwU1t5Qxeg7iiJi=s180-rw"/>
       <p class="card-text"><span><b>Baladiyeti</b></span><br>E-Governance application for Muscat muncipality.</p>
@@ -78,16 +81,40 @@
       </div>
       </a>
   </section>
+  <a name="about" id="about">
   <section class="about">
       <!-- <p id="welcome-text"></p>
       <br> -->
-      <p id="content-text">
-        Cool! Those were some of my projects. My name is Rohan.<br>I build android apps, web pages and device drivers.<br><br>
-        I work as Software Engineer with Hewlett Packard Enterprise.
-        I started my software engineering journey when I was in second year of my graduate studies, when I started android development as a hobby 
-        which developed into a passion. I have gained experience working with different architecture patterns - MVP/MVVM and I use Dagger for dependency injection in my android apps. Over the years, I have gained experience developing front end for websites.
-        I have worked with different UI frameworks and libraries like Angular and React. I am very well versed in Javascript programming.
-        In my current role I develop IO device drivers for initiator - Fibre channel and NVMe controller drivers.
+	  
+		  <p id="content-text">
+			<span id="name">Rohan Reji</span><br>
+			<span id="desc">
+				Android application developer,
+				Device driver developer,
+				Front end developer<br><br>
+			</span>
+			- Software Engineer, Hewlett Packard Enterprise, since August 2015.<br><br>
+			- Freelance developer, Sensomate Systems, from August 2014 to August 2015.<br><br>
+			- Technical Intern, EY Innovation Center, from December 2013 - April 2014.  <br>
+			
+		  </p>
+		  
+		<a href="client/pdf/resume.pdf" class="resume-button" target="_blank"><i class="material-icons">&#xE415;</i></a>
+      
+      <!-- <img class="random-image" id="android-image" src="client/images/android.png"/>
+      <img class="random-image" id="react-image" src="client/images/react.png"/> -->
+  </section>
+    </a>
+  <section name="contact" class="contact">
+	  <a name="contact"></a>
+      <!-- <p id="welcome-text"></p>
+      <br> -->
+      <p id="contact-text">
+		<img class="icon-image" src="client/images/gmail.png"/><a href="mailto:rohanreji93@gmail.com?Subject=Let&nbsp;us&nbsp;keep&nbsp;in&nbsp;touch!" target="blank">&nbsp;&nbsp;rohanreji93@gmail.com</a>
+		<br>
+		<img class="icon-image" src="client/images/linkedin.png"/><a href="https://www.linkedin.com/in/rohan-reji/" target="blank">&nbsp;&nbsp;/rohanreji93</a>
+		<br>
+		<img class="icon-image" id="last" src="client/images/github.png"/><a href="https://github.com/rohanreji93" target="blank">&nbsp;&nbsp;/rohanreji93</a><br>
       </p>
       <!-- <img class="random-image" id="android-image" src="client/images/android.png"/>
       <img class="random-image" id="react-image" src="client/images/react.png"/> -->

@@ -1,124 +1,532 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
-  <title>rohanreji.com</title>
-  <link rel="stylesheet" href="./client/styles.css">
-  <script type="text/javascript" src="./client/client.js" defer="defer"></script>
-  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-</head>
-<body>
-  <header>  
-    <!-- <span id="title-name">Rsquare</span> -->
-    <img src="client/images/rohan-saint.png" id="title-name"/>
-	<p id="header-text">Rohan Reji</p>
-    <nav>
-      <a href="#" id="menu-icon">...</a>
-      <ul>
-        <a href="#projects"><li id="selected_li"><i class="material-icons">&#xE912;</i><span>Projects</span></li></a>
-        <a href="#about"><li><i class="material-icons">&#xE853;</i><span>About</span></li></a>
-        <a href="#contact"><li><i class="material-icons">&#xE0B7;</i><span>Contact</span></li></a>
-      </ul>
-    </nav>
-  </header>
-  <section class="projects">
-    <a class="link"  name="projects" target="_blank" href="https://play.google.com/store/apps/details?id=mm.gov.baladiyeti">
-    <div class="card" id="card-muscat">
-      <img class="card-image" src="https://lh3.googleusercontent.com/YkSoUBl63A9jMwfctyoAmb4QCW88A5d9n-UxuTv2v_dadxsrn2pX2AwU1t5Qxeg7iiJi=s180-rw"/>
-      <p class="card-text"><span><b>Baladiyeti</b></span><br>E-Governance application for Muscat muncipality.</p>
-    </div>
-    </a>
-    <a class="link" target="_blank" href="https://play.google.com/store/apps/details?id=com.conceptowl.test">
-    <div class="card" id="card-concept">
-        <img class="card-image" src="https://lh3.googleusercontent.com/PMhlFWdrk1I9HMPyRk7EgDfcIHbJd906mSaqSsPxeqg27fE-z91yt-KsJicEiPdhpuGA=s180-rw"/>
-        <p class="card-text"><span><b>Bansal App</b></span><br>IIT JEE, NEET by Bansal Classes.</p>
-    </div>
-    </a>
-    <a class="link" target="_blank" href="https://github.com/rohanreji93/SpeechControlledBot">
-    <div class="card" id="card-bot">
-        <img class="card-image" src="client/images/bot_ble.png"/>
-        <p class="card-text"><span><b>Voice Controlled Bot</b></span><br>A human voice recognition bot powered by android ble.</p>
-    </div>
-    </a>
-    <a class="link" target="_blank" href="https://github.com/rohanreji93/EY-TripTrack">
-    <div class="card" id="card-triptrack">
-        <img class="card-image" src="client/images/trip-track.png"/>
-        <p class="card-text"><span><b>Trip Track</b></span><br>Android app for employees to track their office shuttle.</p>
-    </div>
-    </a>
-    <a class="link" target="_blank" href="https://github.com/rohanreji93/MapReminder">
-    <div class="card" id="card-checkin">
-        <img class="card-image" src="client/images/loc.png"/>
-        <p class="card-text"><span><b>CheckIn</b></span><br>A reminder app which is based on location.</p>
-    </div>
-    </a>
-    <a class="link" target="_blank" href="https://github.com/rohanreji93/BLE-Asset-Tracking">
-    <div class="card" id="card-assettracker">
-        <img class="card-image" src="client/images/asset-audit.png"/>
-        <p class="card-text"><span><b>Asset Tracker</b></span><br>App powered by BLE and NFC to track assets.</p>
-    </div>
-    </a>
-    <a class="link" target="_blank" href="https://github.com/rohanreji93/Android-Experiment/tree/master/TextCheckBox">
-    <div class="card" id="card-edittext">
-        <img class="card-image" src="client/images/edittext-image.jpg"/>
-        <p class="card-text"><span><b>Syncpad</b></span><br>An improved edittext for realtime note sharing app.</p>
-    </div>
-    </a>
-    <a class="link" target="_blank" href="https://schoolsafe.co/">
-    <div class="card" id="card-schoolsafe">
-        <img class="card-image" src="client/images/school-safe.png"/>
-        <p class="card-text"><span><b>School Safe</b></span><br>Bluetooth powered safety system for schools.</p>
-    </div>
-    </a>
-    <a class="link" target="_blank" href="https://github.com/rohanreji93/">
-      <div class="card" id="card-more">
-          <img class="card-image" src="client/images/rohan-saint.png"/>
-          <p class="card-text"><span><b>And More...</b></span><br>You can find all my experiments here.</p>
-      </div>
-      </a>
-  </section>
-  <a name="about" id="about">
-  <section class="about">
-      <!-- <p id="welcome-text"></p>
-      <br> -->
-	  
-		  <p id="content-text">
-			<span id="name">Rohan Reji</span><br>
-			<span id="desc">
-				Android application developer,
-				Device driver developer,
-				Front end developer<br><br>
-			</span>
-			- Software Engineer, Hewlett Packard Enterprise, since August 2015.<br><br>
-			- Freelance developer, Sensomate Systems, from August 2014 to August 2015.<br><br>
-			- Technical Intern, EY Innovation Center, from December 2013 - April 2014.  <br>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Website Title -->
+    <title>Rohan Reji - Android Developer | Running Enthusiast</title>
+    <!-- Bootstrap -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Font-Awesome -->
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Lightbox -->
+	<link href="assets/lightbox/css/lightbox.css" rel="stylesheet">
+    <!-- Text Rotator-->
+	<link href="assets/textrotator/simpletextrotator.css" rel="stylesheet">
+	<!-- FlexSlider -->
+    <link href="assets/flexslider/flexslider.css" rel="stylesheet">
+	<!-- Theme Style -->
+    <link href="css/style.css" rel="stylesheet">
+	<!-- Animations -->
+    <link href="css/animate.css" rel="stylesheet">
+	<!-- Custom Favicon -->
+	<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" /> 
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="assets/html5shiv/html5shiv.js"></script>
+    <script src="assets/respond/respond.min.js"></script>
+    <![endif]-->
+  </head>
+    <body id="top">
+
+      <!-- ****************************** Preloader ************************** -->
+      <div id="preloader"></div>
+
+
+	  	<!-- ==========================
+        HEADER SECTION 
+        =========================== -->
+        <header id="home">
+		    <!-- creative menu -->
+            <div class="container-fluid">
+              <div class="row">
+                <div class="menu-wrap">
+				<nav class="menu">
+				    <!-- Menu Links -->
+					<div class="icon-list">
+						<a href="index.html#home"><i class="fa fa-fw fa-home"></i><span>Home</span></a>
+						<a href="index.html#service"><i class="fa fa-fw fa-quote-left"></i><span>About</span></a>
+						<!-- <a href="index.html#service"><i class="fa fa-fw fa-globe"></i><span>Service</span></a> -->
+						<a href="index.html#portfolio"><i class="fa fa-fw fa-picture-o"></i><span>Portfolio</span></a>
+						<!-- <a href="index.html#blog"><i class="fa fa-fw fa-rss"></i><span>Blog</span></a> -->
+						<a href="index.html#contact"><i class="fa fa-fw fa-envelope-o"></i><span>Contact</span></a>
+					</div>
+				</nav>
+			    </div>
+			    <button class="menu-button" id="open-button"></button><!-- menu button -->
+              </div><!--/row-->
+            </div><!--/container-->
+		  <!-- Header Image -->
+          <section class="hero" id="hero">
+            <div class="container">
+			  <!-- Slider Button (don't edit!)-->
+              <div class="row">
+                <div class="col-md-12 text-right navicon">
+                  <a id="nav-toggle" class="nav_slide_button" href="index.html#"><span></span></a>
+                </div>
+              </div>
+			  <!-- HEADER HEADLINE -->
+              <div class="row">
+                <div class="col-md-8 col-md-offset-1 inner">
+                  <h1 class="animated fadeInDown">
+                    <span style="color:#E04343;">R</span>ohan<br/>
+                    <span><span style="color:#FFE800">R</span>eji</span>
+                  </h1><!-- Title -->
+                  <h3 class="animated fadeInUp delay-05s"><span class="rotate">Android Developer,Software Engineer,Writer</span></h3><!-- Text Rotator -->
+                </div>
+              </div>
+			  <!-- Learn More Button -->
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                  <a href="index.html#about" class="scrollto wow fadeInUp delay-5s ">
+			            <p>SEE MORE</p>
+			            <p class="scrollto--arrow"><img src="img/scroll-down.png" alt="scroll down arrow"></p>
+			        </a>
+                </div>
+              </div>
+            </div>
+          </section>
+		  <!-- Header Image End -->
+        </header>
+		<!-- ==========================
+        HEADER SECTION END  
+        =========================== -->
+		
+		
+		
+		
+		<!-- ==========================
+        ABOUT SECTION  
+        =========================== -->
+        <!-- <section class="intro text-center section-padding color-bg" id="about">
+          <div class="container">
+		    <!-- WELCOME TEXT -->
+            <!-- <div class="row">
+              <div class="col-md-8 col-md-offset-2 wp1">
+                <h1 class="arrow">A little <span>about</span> me</h1><!-- Headline -->
+				<!-- about / welcome text -->
+                <!-- <p>Treating yourself as the best <a href="#">waterfall</a> or something, for a split second it's so great, because for a little bit I'm out of my brain, and it's got nothing to do with me. I'm not trying to figure it out, you know what I mean? And I wonder if I can somehow find a way to maintain that mind stillness.</p>
+              </div>
+            </div>
+          </div>
+        </section>  -->
+
+
+
+
+<!-- ==========================
+        SERVICE SECTION 
+        =========================== -->
+        <section class="features text-center section-padding" id="service">
+          <div class="container">
+        <!-- Headline -->
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow">What I do?</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+          <div class="services">
+          <!-- Service Box 1 -->
+                  <div class="col-md-4 wp2 item">
+                    <div class="icon">
+                      <i class="fa fa-android"></i><!-- Icon -->
+                    </div>
+                    <h2>Android Developer</h2><!-- Title -->
+                    <p>
+                    I use Java for building apps that are magnificient. Always embraced by beauty of android application development - design patterns, material UI, multithreading and the flawless lifecycle. 
+                    </p><!-- Description -->
+                  </div>
+          <!-- Service Box 2 -->
+                  <div class="col-md-4 wp2 item delay-05s">
+                    <div class="icon">
+                      <i class="fa fa-coffee"></i><!-- Icon -->
+                    </div>
+                    <h2>System Software Engineer</h2><!-- Title -->
+                    <p>I enjoy problems, because solving them is fun. Being an engineer gives me lot of opportunity to solve complex problems. I implement these solutions using C programming language.</p><!-- Description -->
+                  </div>
+          <!-- Service Box 3 -->
+                  <div class="col-md-4 wp2 item delay-1s">
+                    <div class="icon">
+                      <i class="fa fa-edit"></i><!-- Icon -->
+                    </div>
+                    <h2>Writer</h2><!-- Title -->
+                    <p>Our subconscious mind is the source of ultimate power. I write down what comes in my subconscious mind. I love to write about the places I have visited. I am an aspiring writer. </p><!-- Description -->
+                  </div>
+          </div>
+                  <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+		<!-- <div class="container-fluid">
+		    <!-- About 1 -->
+			<!-- <div class="row color-bg">
+				<div class="col-md-6 nopadding features-intro-img">
+					<div class="about-image" style="background-image:url(img/about1.png)"></div><!-- about image 1 -->
+				<!-- </div>
+				<div class="col-md-6 about-text">
+					<h6>High quality webdesign</h6><!-- headline-->
+					<!-- <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p><br><!-- About Text 1 -->
+					<!-- <a href="index.html#team" class="weight-outline-btn">Read more</a><!-- read more button  -->			
+				<!-- </div>
+			</div> -->
+			<!-- About 2 -->
+			<!-- <div class="row">
+				<div class="col-md-6 about-text">
+					<h6>Professional Photography</h6><!-- Headline -->
+					<!-- <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p><br><!-- About Text 2 -->
+					<!-- <a href="index.html#team" class="weight-outline-btn">Read more</a>	<!-- read more button  -->				
+				<!-- </div>
+				<div class="col-md-6 nopadding features-intro-img">
+					<div class="about-image" style="background-image:url(img/about2.png)"></div><!-- about image 2 -->
+				<!-- </div>
+			</div>  -->
+			<!-- About 3 -->
+			<!-- <div class="row color-bg">
+				<div class="col-md-6 nopadding features-intro-img">
+					<div class="about-image" style="background-image:url(img/about3.png)"></div><!-- about image 3 -->
+				<!-- </div>
+				<div class="col-md-6 about-text">
+					<h6>3d modeling and animations</h6><!-- Headline-->
+					<!-- <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p><br><!-- About Text 3 -->
+					<!-- <a href="index.html#team" class="weight-outline-btn">Read more</a><!-- read more button  -->					
+				<!-- </div>
+			</div>
+		</div>        -->
+		<!-- ==========================
+        ABOUT SECTION END
+        =========================== -->	
+
+		
+		
+		
+		<!-- ==========================
+        PORTFOLIO SECTION
+    =========================== -->
+        <section class="swag text-center" id="portfolio">
+          <div class="container">
+
+
+
+		    <!-- Headline -->
+            <div class="row">
+              <h1 class="arrow">
+                Recent <span>Projects</span>
+              </h1>
+            </div>
+          </div>
+        </section>
+
+        <div class="container">
+          <div class="row row-offset-0">
+  				 
+          <!-- PORTFOLIO ITEM 1 -->
+          <div class="col-md-3 col-sm-6 link">
+             <a  name="projects" target="_blank" href="https://play.google.com/store/apps/details?id=mm.gov.baladiyeti">
+                <div class="card" id="card-muscat">
+                <!-- <img class="card-image" src="https://lh3.googleusercontent.com/YkSoUBl63A9jMwfctyoAmb4QCW88A5d9n-UxuTv2v_dadxsrn2pX2AwU1t5Qxeg7iiJi=s180-rw"/> -->
+                <p class="card-text"><span><b>Baladiyeti</b></span><br>E-Governance application for Muscat muncipality.</p>
+                </div>
+            </a>
+          </div>
+  	    <!-- PORTFOLIO ITEM END -->
+  	
+  	    <!-- PORTFOLIO ITEM 2 -->
+          <div class="col-md-3 col-sm-6 link">
+                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.conceptowl.test">
+                    <div class="card" id="card-concept">
+                        <!-- <img class="card-image" src="https://lh3.googleusercontent.com/PMhlFWdrk1I9HMPyRk7EgDfcIHbJd906mSaqSsPxeqg27fE-z91yt-KsJicEiPdhpuGA=s180-rw"/> -->
+                        <p class="card-text"><span><b>Bansal App</b></span><br>IIT JEE, NEET preparation app by Bansal Classes.</p>
+                    </div>
+                    </a>
+          </div>
+  	    <!-- PORTFOLIO ITEM END -->
+  					
+  		<!-- PORTFOLIO ITEM 3 -->
+          <div class="col-md-3 col-sm-6  link">
+                <a  target="_blank" href="https://github.com/rohanreji93/SpeechControlledBot">
+                    <div class="card" id="card-bot">
+                        <!-- <img class="card-image" src="img/portfolio/bot_ble.png"/> -->
+                        <p class="card-text"><span><b>Voice Controlled Bot</b></span><br>Voice recognition bot powered by android ble.</p>
+                    </div>
+                    </a>
+          </div>
+  	    <!-- PORTFOLIO ITEM END -->
+  					
+  		<!-- PORTFOLIO ITEM 4 -->
+          <div class="col-md-3 col-sm-6 link">
+                <a  target="_blank" href="https://github.com/rohanreji93/EY-TripTrack">
+                    <div class="card" id="card-triptrack">
+                        <!-- <img class="card-image" src="img/portfolio/trip-track.png"/> -->
+                        <p class="card-text"><span><b>Trip Track</b></span><br>Employee app to track their office shuttle.</p>
+                    </div>
+                    </a>
+          </div>
+  	    <!-- PORTFOLIO ITEM END -->
+  	             
+          <!-- PORTFOLIO ITEM 5 -->
+          <div class="col-md-3 col-sm-6 link">
+                <a  target="_blank" href="https://github.com/rohanreji93/MapReminder">
+                    <div class="card" id="card-checkin">
+                        <!-- <img class="card-image" src="img/portfolio/loc.png"/> -->
+                        <p class="card-text"><span><b>CheckIn</b></span><br>A location based reminder app.</p>
+                    </div>
+                    </a>
+          </div>
+  	    <!-- PORTFOLIO ITEM END -->
+  	
+  	    <!-- PORTFOLIO ITEM 6 -->
+          <div class="col-md-3 col-sm-6 link">
+                <a  target="_blank" href="https://github.com/rohanreji93/BLE-Asset-Tracking">
+                    <div class="card" id="card-assettracker">
+                        <!-- <img class="card-image" src="img/portfolio/asset-audit.png"/> -->
+                        <p class="card-text"><span><b>Asset Tracker</b></span><br>App powered by BLE and NFC to track assets.</p>
+                    </div>
+                    </a>
+          </div>
+  	    <!-- PORTFOLIO ITEM END -->
+  					
+  		<!-- PORTFOLIO ITEM 7 -->
+          <div class="col-md-3 col-sm-6 link">
+                <a  target="_blank" href="https://github.com/rohanreji93/Android-Experiment/tree/master/TextCheckBox">
+                    <div class="card" id="card-edittext">
+                        <!-- <img class="card-image" src="img/portfolio/edittext-image.jpg"/> -->
+                        <p class="card-text"><span><b>Syncpad</b></span><br>An edittext for realtime note sharing app.</p>
+                    </div>
+                    </a>
+          </div>
+  	    <!-- PORTFOLIO ITEM END -->
+  					
+  		<!-- PORTFOLIO ITEM 8 -->
+          <div class="col-md-3 col-sm-6 link">
+                <a  target="_blank" href="https://schoolsafe.co/">
+                    <div class="card" id="card-schoolsafe">
+                        <!-- <img class="card-image" src="img/portfolio/school-safe.png"/> -->
+                        <p class="card-text"><span><b>School Safe</b></span><br>Bluetooth powered safety system for schools.</p>
+                    </div>
+                    </a>
+          </div>
+  	    <!-- PORTFOLIO ITEM END -->
+        </div><!--/row-->
+      </div><!--/.container-->
+		<!-- ==========================
+        PORTFOLIO SECTION END
+        =========================== -->
 			
-		  </p>
-		  
-		<a href="client/pdf/resume.pdf" class="resume-button" target="_blank"><i class="material-icons">&#xE415;</i></a>
-      
-      <!-- <img class="random-image" id="android-image" src="client/images/android.png"/>
-      <img class="random-image" id="react-image" src="client/images/react.png"/> -->
-  </section>
-    </a>
-  <section name="contact" class="contact">
-	  <a name="contact"></a>
-      <!-- <p id="welcome-text"></p>
-      <br> -->
-      <p id="contact-text">
-		<img class="icon-image" src="client/images/gmail.png"/><a href="mailto:rohanreji93@gmail.com?Subject=Let&nbsp;us&nbsp;keep&nbsp;in&nbsp;touch!" target="blank">&nbsp;&nbsp;rohanreji93@gmail.com</a>
-		<br>
-		<img class="icon-image" src="client/images/linkedin.png"/><a href="https://www.linkedin.com/in/rohan-reji/" target="blank">&nbsp;&nbsp;/rohanreji93</a>
-		<br>
-		<img class="icon-image" id="last" src="client/images/github.png"/><a href="https://github.com/rohanreji93" target="blank">&nbsp;&nbsp;/rohanreji93</a><br>
-      </p>
-      <!-- <img class="random-image" id="android-image" src="client/images/android.png"/>
-      <img class="random-image" id="react-image" src="client/images/react.png"/> -->
-  </section>
-  
-</body>
+
+
+			
+		<!-- ==========================
+        CUSTOM SPACER
+        =========================== -->
+		<div class="spacer-cta text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <a href="index.html#contact" class="outline-btn">Does it look Cool?</a>
+              </div>
+            </div>
+          </div>
+        </div>
+		<!-- ==========================
+        CUSTOM SPACER END
+        =========================== -->
+		
+		
+
+    
+    
+        
+		
+		
+		
+		
+		
+		
+		
+	
+		
+		
+		<!-- ==========================
+        CONTACT SECTION
+        =========================== -->
+        <section class="text-center section-padding contact-wrap" id="contact">
+		  <!-- To Top Button -->
+          <a href="index.html#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
+          <div class="container">
+		    <!-- Headline -->
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow">Drop <span>me</span> a line</h1>
+              </div>
+            </div>
+            <div class="row contact-details">
+			  <!-- Adress Box -->
+              <div class="col-md-4">
+                <div class="dark-box box-hover">
+                  <h2><i class="fa fa-map-marker"></i><span>Address</span></h2>
+                  <p>49, LRDE Layout, Bangalore</p>
+                </div>
+              </div>
+			  <!-- Phone Number Box -->
+              <div class="col-md-4">
+                <div class="dark-box box-hover">
+                  <h2><i class="fa fa-mobile"></i><span>Phone</span></h2>
+                  <p>+91 8547242171</p>
+                </div>
+              </div>
+			  <!-- E-Mail Box -->
+              <div class="col-md-4">
+                <div class="dark-box box-hover">
+                  <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
+                  <p><a href="mailto:rohanreji93@gmail.com?Subject=Let&nbsp;us&nbsp;keep&nbsp;in&nbsp;touch!" target="blank">rohanreji93@gmail.com</a></p>
+                </div>
+              </div>
+            </div>
+			<div class="row">
+			  <!-- Google Maps (Change your Settings below) -->
+			  <div class="">
+			    <div id="googlemaps"></div>
+			  </div>
+			  <!-- Contact Form -->
+			  <!-- <div class="col-md-6 contact">
+			     <form role="form">
+				            <!-- Name -->
+                            <!-- <div class="row">
+                                <div class="col-md-6"> -->
+								    <!-- E-Mail -->
+                                    <!-- <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Your name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6"> -->
+								    <!-- Phone Number -->
+                                    <!-- <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Email address">
+                                    </div>
+                                </div>
+                            </div> -->
+							<!-- Message Area -->
+                            <!-- <div class="form-group">
+                                <textarea class="form-control" placeholder="Write you message here..." style="height:232px;"></textarea>
+                            </div> -->
+							<!-- Subtmit Button -->
+                            <!-- <button type="submit" class="btn btn-send">
+                                Send message
+                            </button>
+                        </form>
+			  </div> --> 
+			</div>
+			<br>
+			<!-- Social Buttons - use font-awesome, past in what you want -->
+            <div class="row">
+              <div class="col-md-12">
+                <ul class="social-buttons">
+                  <li><a href="https://twitter.com/mathutty" class="social-btn" target="blank"><i class="fa fa-twitter"></i></a></li><!-- twitter -->
+                  <li><a href="https://www.facebook.com/rohan.reji.9" class="social-btn" target="blank"><i class="fa fa-facebook"></i></a></li><!-- facebook -->
+				  <li><a href="https://github.com/rohanreji93" class="social-btn" target="blank"><i class="fa fa-github" ></i></a></li><!-- deviantart -->
+				  <li><a href="https://www.linkedin.com/in/rohan-reji/" class="social-btn" target="blank"><i class="fa fa-linkedin"></i></a></li><!-- youtube -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+		<!-- ==========================
+        CONTACT SECTION END
+        =========================== -->
+		
+		
+		
+		<!-- ==========================
+        FOOTER SECTION
+        =========================== -->
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <p>All Rights Reserved. &copy; 2015 TW </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+		<!-- ==========================
+        FOOTER SECTION END
+        =========================== -->		
+		
+		
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- SmoothScroll -->           
+    <script type="text/javascript" src="assets/smoothscroll/smoothscroll.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/waypoints.min.js"></script>
+    <!-- classie.js -->
+	<script src="js/classie.js"></script>
+    <!-- FlexSlider -->
+    <script src="assets/flexslider/jquery.flexslider.js"></script>
+	<!-- Modernizr -->
+    <script src="js/modernizr.js"></script>
+	<!-- Text Rotator -->
+	<script src="assets/textrotator/jquery.simple-text-rotator.js"></script>
+	<!-- Lightbox.js -->
+    <script src="assets/lightbox/js/lightbox.min.js"></script>
+    <!-- Google Maps --> 
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeKBBPJTG3v5w3cNPAgM6ZsJiPyL1mP_o&amp;sensor=false"></script>
+	<!-- Theme JavaScript Core -->
+	<script src="js/main.js"></script>
+	<script src="js/script.js"></script>
+
+	<!-- GOOGLE MAPS DATA -->
+    <script type="text/javascript">
+    // When the window has finished loading create our google map below
+        google.maps.event.addDomListener(window, 'load', init);
+    
+        function init() {
+            // Basic options for a simple Google Map
+            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+            var mapOptions = {
+                // How zoomed in you want the map to start at (always required)
+                zoom: 15,
+                
+                scrollwheel: false,
+
+                // The latitude and longitude to center the map (always required)
+                center: new google.maps.LatLng(12.970095, 77.701078), // New York 
+
+                // How you would like to style the map. 
+                // This is where you would paste any style found on Snazzy Maps.
+                styles: [	{		featureType:'water',		stylers:[{color:'#F2F2F2'},{visibility:'on'}]	},{		featureType:'landscape',		stylers:[{color:'#FFFFFF'}]	},{		featureType:'road',		stylers:[{saturation:-100},{lightness:45}]	},{		featureType:'road.highway',		stylers:[{visibility:'simplified'}]	},{		featureType:'road.arterial',		elementType:'labels.icon',		stylers:[{visibility:'off'}]	},{		featureType:'administrative',		elementType:'labels.text.fill',		stylers:[{color:'#ADADAD'}]	},{		featureType:'transit',		stylers:[{visibility:'off'}]	},{		featureType:'poi',		stylers:[{visibility:'off'}]	}]
+            };
+
+            // Get the HTML DOM element that will contain your map 
+            // We are using a div with id="map" seen below in the <body>
+            var mapElement = document.getElementById('googlemaps');
+
+            // Create the Google Map using out element and options defined above
+            var map = new google.maps.Map(mapElement, mapOptions);
+        }
+	
+    </script>
+	
+	<!-- TEXT ROTATOR SETTINGS -->
+    <script type="text/javascript">
+    $(".rotate").textrotator({
+      animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+      separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+      speed: 2000 // How many milliseconds until the next word show.
+    });
+    </script>
+	
+    </body>
 </html>
